@@ -1,0 +1,19 @@
+# Node modules for React (adjust the path if needed)
+frontend/my-app/node_modules/
+
+# Python cache and compiled files in backend
+backend/__pycache__/
+backend/routes/__pycache__/
+
+backend/*.py[cod]
+backend/.pytest_cache/
+
+# Virtual environments (if you have one in the backend and one at root)
+backend/venv/
+.venv/
+
+# System and editor files
+.DS_Store
+.env
+.idea/
+.vscode/
